@@ -84,3 +84,34 @@
 #intro .intro-first-card .overlay a:hover {
   color: #fafa6f;
 }
+
+/* 서비스 Section */
+#services {
+  background-color: rgba(96, 129, 139, 0.1);
+}
+
+#services .divider {
+  width: 10%;
+  margin: 2rem auto;
+  border-top: 0.5rem solid rgb(255, 112, 3);
+}
+
+/* 슬라이드의 카드부분*/
+#services .services-col .card{
+  transition: 0.4s ease;
+}
+
+
+#services .services-col .card:hover{
+  transform: translateY(-0.8rem);
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+#services .services-col img {
+  height: 13rem;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+
