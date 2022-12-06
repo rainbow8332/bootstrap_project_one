@@ -191,8 +191,40 @@
   background-image: url('../images/port6.jpg');
 }
 
+/* CTA & Map Section */
+#cta {
+  background-image: url('../images/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 65vh;
+  /* position: relative; */
+}
 
+#cta .section-content {
+  background-color: rgba(96, 125, 139, 0.3);
+  top: 0;
+  left: 0;
+}
 
+#find-us {
+  position: relative;
+}
+
+#find-us .find-us {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 2rem;
+  padding: 1.5rem;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.85);
+  transition: all 0.4s ease-in;
+}
+
+#find-us .find-us:hover {
+  background-color: #fff;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
 
 
 
